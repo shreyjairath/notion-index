@@ -1,0 +1,29 @@
+body {
+  padding: 20px;
+}
+
+.container {
+  position: fixed;
+  right: 40px;
+  top: 100px;
+  z-index: 98;
+  width: 200px;
+  color: lightgrey;
+
+  top: 0px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  display: block;
+  margin: 20px; 
+  color: inherit;
+  text-decoration: none;
+}
+
+.item:hover {
+  color: grey;
+}
