@@ -13,7 +13,7 @@ $(() => {
 });
 
 function getHeaders() {
-  return $('div[placeholder=Header');
+  return $('div[placeholder="Heading 1"]');
 }
 
 function onContentChange(callback){
